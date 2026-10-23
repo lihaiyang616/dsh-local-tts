@@ -1,0 +1,6 @@
+# DSH 本地朗读（local-tts）
+#
+# 这一行把插件挂进 DSH 配置树。id 就是日志前缀 / 设置文件名的一部分。
+- insert:
+    - id: local-tts
+      name: 'dsh-local-tts'
