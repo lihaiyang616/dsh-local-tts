@@ -1,7 +1,7 @@
 {
   "name": "dsh-local-tts",
-  "version": "0.1.0",
-  "description": "DSH 本地朗读：用本机 Style-Bert-VITS2 把会话读出声，支持多音色、按语言自动切换（可自建/克隆音色）",
+  "version": "0.2.0",
+  "description": "DSH 本地朗读：把会话读出声。引擎二选一：本机 Style-Bert-VITS2（可自建/克隆音色）或微软 edge-tts（中文自然）",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,6 +27,7 @@
     "deepseek-harness",
     "tts",
     "style-bert-vits2",
+    "edge-tts",
     "voice"
   ],
   "license": "MIT",
