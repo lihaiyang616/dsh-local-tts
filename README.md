@@ -35,7 +35,7 @@
 
 ```sh
 # 从 GitHub 装（插件没有发 npm）
-dsh plugin --profile desktop add github:lihaiyang250250-del/dsh-local-tts
+dsh plugin --profile desktop add github:lihaiyang616/dsh-local-tts
 
 # 或者本地开发用 link 装
 dsh plugin --profile desktop add link:D:/path/to/dsh-local-tts
